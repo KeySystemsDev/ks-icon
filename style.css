@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'keysystems';
+	
+	src:
+		url('fonts/icomoon.woff?1zn6zr') format('woff'),
+		url('fonts/icomoon.svg?1zn6zr#icomoon') format('svg');
+	
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'keysystems';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tulocalidad:before {
+	content: "\e900";
+}
+.icon-tulocalidad-text:before {
+	content: "\e902";
+}
